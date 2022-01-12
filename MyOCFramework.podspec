@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
 
   spec.public_header_files = "#{spec.name}.framework/Headers/*.h"
 
-  spec.framework  = "#{spec.name}.framework"
+  spec.vendored_frameworks  = "#{spec.name}.framework"
 
   spec.dependency 'MyFramework', '~> 1.0.1'
 
