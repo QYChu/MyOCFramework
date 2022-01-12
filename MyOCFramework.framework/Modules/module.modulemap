@@ -1,0 +1,6 @@
+framework module MyOCFramework {
+  umbrella header "MyOCFramework.h"
+
+  export *
+  module * { export * }
+}
